@@ -1,0 +1,70 @@
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #2ac3ff;
+}
+
+main {
+    height: 1050px;
+    background: #ffffff;
+    margin: 30px 0;
+    padding: 25px;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.btn-wrap {
+    display: flex;
+    width: 120px;
+    align-items: center;
+    height: 30px;
+    padding-left: 15px;
+    background: #ffdb67;
+    border-radius: 100px;
+    margin: 10px 0;
+} .btn-wrap span {
+    flex-grow: 1;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.test span .test p {
+    font-size: 13px;
+}
+
+.option {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: transparent;
+    /* color: #ffffff; */
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    background: #f7f7f7;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 2px 8px;
+    max-width: 680px;
+}
